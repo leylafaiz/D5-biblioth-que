@@ -32,7 +32,7 @@ body {
    line-height: 1.2em;
  }
 
- .button {
+ .first-button {
    font-family: aesthet-nova, serif;
    font-style: normal;
    font-weight: 300;
@@ -56,12 +56,15 @@ body {
   text-align: justify;
   text-decoration: none;
   display: inline-block;
-  padding: 0px 500px 0px 500px;
+  padding: 0% 30% 0% 30%;
   font-size: 1.2em;
   line-height: 1.3em;
+ color: #b2b2b2;
+}
+
+.main-content{
   margin-top: 7%;
-  margin-bottom: 7%;
-  color: #b2b2b2;
+  margin-bottom: 4%;
 }
 
 .fptitles {
@@ -78,5 +81,52 @@ body {
   max-width: 70%;
 }
 .bottom {
-  
+  padding:0% 20% 4% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left-arrow {
+max-width: 4%;
+cursor: pointer;
+}
+.right-arrow{
+max-width: 4%;
+cursor: pointer;
+}
+
+#size-zone {
+  position: fixed;
+  top: 30vh;
+  width: 100%;
+  min-height: 30vh;
+  z-index: -20;
+  background: #000000;
+  opacity: 70%;
+}
+
+.l-button{
+  border-radius: 25px;
+  background-color: #fff;
+  border: none;
+  color: black;
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 1.2%;
+  }
+
+.r-button{
+  border-radius: 25px;
+  background-color: #fff;
+  border: none;
+  color: black;
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 1.2%;
 }
